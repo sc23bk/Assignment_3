@@ -341,25 +341,25 @@ def question10():
     answers = {}
 
     # type: string
-    answers["(a) Figure (a)"] = ""
+    answers["(a) Figure (a)"] = "Yes"
 
     # type: string
-    answers["(a) Figure (b)"] = ""
+    answers["(a) Figure (b)"] = "No"
 
     # type: explanatory string (at least four words)
-    answers["(a) explain"] = ""
+    answers["(a) explain"] = "DBSCAN can detect clusters of varying density, which corresponds to the facial features in both figures. However, it might struggle if the density difference is not significant, as could be the case in figure (b)."
 
     # type: string
-    answers["(b) Figure (a)"] = ""
+    answers["(b) Figure (a)"] = "No"
 
     # type: string
-    answers["(b) Figure (b)"] = ""
+    answers["(b) Figure (b)"] = "No"
 
     # type: explanatory string (at least four words)
-    answers["(b) explain"] = ""
+    answers["(b) explain"] = "K-means is not suitable for finding non-spherical and differently sized clusters without specifying the number of clusters in advance."
 
     # type: string
-    answers["(c)"] = ""
+    answers["(c)"] = "Gaussian Mixture Models or Spectral Clustering."
 
     return answers
 
