@@ -11,7 +11,7 @@ def question1():
     answers["(a)"] = True
 
     # type: explanatory string (at least four words)
-    answers["(a) explain"] = "Hierarchical clustering isolates outliers, less sensitive than k-means."
+    answers["(a) explain"] = "Hierarchical clustering isolates the outliers, which is less sensitive than k-means."
 
     # type: bool (True/False)
     answers["(b)"] = True
@@ -23,7 +23,7 @@ def question1():
     answers["(c)"] = False
 
     # type: explanatory string (at least four words)
-    answers["(c) explain"] = "K-means is efficient, but not the most efficient algorithm."
+    answers["(c) explain"] = "K-means is efficient, but the efficiency depends on data characteristics and specific clustering requirements."
 
     # type: bool (True/False)
     answers["(d)"] = True
@@ -74,7 +74,7 @@ def question2():
     answers["(a)"] = True
 
     # type: explanatory string (at least four words)
-    answers["(a) explain"] = "Uniform density centers centroids."
+    answers["(a) explain"] = "Clusters are too far away from centroid."
 
     # type: bool (True/False)
     answers["(b)"] = False
@@ -125,7 +125,7 @@ def question4():
     answers["(a) Circle (c)"] = 1
 
     # type: explanatory string (at least four words)
-    answers["(a) explain"] = "With A and B sharing equal distances and each harboring 100 points, A will entice one centroid. The right side of B is now home to two centroids. Circle C, outmatching B with 100,000 points and similarly positioned, is destined to captivate a centroid due to its superior allure, overcoming its initial lack. The symmetrical point distribution in A and B guarantees that both will magnetize a centroid, reflecting their equivalent attracting forces."
+    answers["(a) explain"] = "With A and B sharing equal distances and each having 100 points, A will have one centroid. The right side of B is now home to two centroids. Circle C, outmatching B with 100,000 points and similarly positioned, C attarcts one centroid."
 
     # type: int
     answers["(b) Circle (a)"] = 1
@@ -149,7 +149,7 @@ def question4():
     answers["(c) Circle (c)"] = 2
 
     # type: explanatory string (at least four words)
-    answers["(c) explain"] = "The centroid in circle A will remain due to its initial central placement and the small number of points in circle B, which cannot compete with the massive number in circle C. The two centroids in circle C will stay there, beacause volume of 100,000 points, ensuring their convergence within that circle."
+    answers["(c) explain"] = "The centroid in circle A will remain due to its initial central placement and the less points in circle B, which cannot compete with the more points in circle C. The two centroids in circle C will stay there, beacause volume of 100,000 points."
 
     return answers
 
@@ -236,13 +236,13 @@ def question7():
     answers["(a)"] = "Cluster 4"
 
     # type: explanatory string (at least four words)
-    answers["(a) explain"] = "Cluster 4 has a significant number of land objects spread across several categories, indicating the highest level of disorder or diversity among the clusters."
+    answers["(a) explain"] = "Cluster 4 has a significant number of land objects spread across several categories, indicating the highest level of disorder."
 
     # type: string
     answers["(b)"] = "Cluster 2"
 
     # type: explanatory string (at least four words)
-    answers["(b) explain"] = "Cluster 2 is dominated by the Forest category with a high number of land objects, showing the lowest level of disorder or the most homogeneous composition."
+    answers["(b) explain"] = "Cluster 2 is dominated by the forest category with a high number of land objects, showing the most homogeneous composition."
 
     return answers
 
@@ -329,7 +329,7 @@ def question9():
     answers["(e)"] = ["partitional", "exclusive", "complete"]
 
     # type: explanatory string (at least four words)
-    answers["(e) explain"] = "Grades are distinct categories without overlap, and every student receives a grade."
+    answers["(e) explain"] = "Grades are distinct categories without overlap, and every student receives a grade exclusively."
 
     return answers
 
@@ -347,7 +347,7 @@ def question10():
     answers["(a) Figure (b)"] = "Yes"
 
     # type: explanatory string (at least four words)
-    answers["(a) explain"] = "DBSCAN is effective for finding dense regions, which corresponds to the facial features in image (b), but not in image (a) where features are less dense."
+    answers["(a) explain"] = "DBSCAN is effective for finding dense regions, which finds the facial features in image (b), but not in image (a) where features are less dense."
 
     # type: string
     answers["(b) Figure (a)"] = "No"
@@ -356,7 +356,7 @@ def question10():
     answers["(b) Figure (b)"] = "Yes"
 
     # type: explanatory string (at least four words)
-    answers["(b) explain"] = "K-means could potentially identify the features in image (b) with correct cluster initialization, but it's not ideal due to its assumptions on cluster density and shape."
+    answers["(b) explain"] = "K-means could identify the features in image (b) with correct cluster initialization, but it's not ideal due to its assumptions on cluster density and shape."
 
     # type: string
     answers["(c)"] = "Hierarchical clustering"
