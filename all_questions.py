@@ -116,16 +116,16 @@ def question4():
     answers = {}
 
     # type: int
-    answers["(a) Circle (a)"] = 0
+    answers["(a) Circle (a)"] = 1
 
     # type: int
-    answers["(a) Circle (b)"] = 0
+    answers["(a) Circle (b)"] = 1
 
     # type: int
-    answers["(a) Circle (c)"] = 3
+    answers["(a) Circle (c)"] = 1
 
     # type: explanatory string (at least four words)
-    answers["(a) explain"] = "The initial centroids are all in circle B, and given the uniform distribution and equal distances to circles A and C, the large number of points in circle C (100,000) compared to A (100) will exert a stronger pull, causing all centroids to converge in circle C."
+    answers["(a) explain"] = "With A and B sharing equal distances and each harboring 100 points, A will entice one centroid. The right side of B is now home to two centroids. Circle C, outmatching B with 100,000 points and similarly positioned, is destined to captivate a centroid due to its superior allure, overcoming its initial lack. The symmetrical point distribution in A and B guarantees that both will magnetize a centroid, reflecting their equivalent attracting forces."
 
     # type: int
     answers["(b) Circle (a)"] = 1
@@ -182,19 +182,19 @@ def question6():
     answers = {}
 
     # type: set
-    answers["(a) core"] = set()
+    answers["(a) core"] = {'B', 'C', 'E', 'F', 'I', 'J', 'L', 'M'}
 
     # type: set
-    answers["(a) boundary"] = set()
+    answers["(a) boundary"] = {'D', 'G'}
 
     # type: set
-    answers["(a) noise"] = set()
+    answers["(a) noise"] = {'A', 'H'}
 
     # type: set
-    answers["(b) cluster 1"] = set()
+    answers["(b) cluster 1"] = {'B','C','D','E','F','G'}
 
     # type: set
-    answers["(b) cluster 2"] = set()
+    answers["(b) cluster 2"] = {'I','J','L','M'}
 
     # type: set
     answers["(b) cluster 3"] = set()
@@ -203,19 +203,19 @@ def question6():
     answers["(b) cluster 4"] = set()
 
     # type: set
-    answers["(c)-a core"] = set()
+    answers["(c)-a core"] = {'I', 'G', 'J', 'E', 'M', 'B', 'L', 'F', 'D', 'C'}
 
     # type: set
-    answers["(c)-a boundary"] = set()
+    answers["(c)-a boundary"] = {'A', 'H'}
 
     # type: set
     answers["(c)-a noise"] = set()
 
     # type: set
-    answers["(c)-b cluster 1"] = set()
+    answers["(c)-b cluster 1"] = {'G', 'I', 'H', 'J', 'E', 'M', 'B', 'D', 'F', 'L', 'C'}
 
     # type: set
-    answers["(c)-b cluster 2"] = set()
+    answers["(c)-b cluster 2"] = {'A'}
 
     # type: set
     answers["(c)-b cluster 3"] = set()
