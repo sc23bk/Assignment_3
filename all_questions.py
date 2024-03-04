@@ -239,10 +239,10 @@ def question7():
     answers["(a) explain"] = "Cluster 4 has a significant number of land objects spread across several categories, indicating the highest level of disorder."
 
     # type: string
-    answers["(b)"] = "Cluster 2"
+    answers["(b)"] = "Cluster 1"
 
     # type: explanatory string (at least four words)
-    answers["(b) explain"] = "Cluster 2 is dominated by the forest category with a high number of land objects, showing the most homogeneous composition."
+    answers["(b) explain"] = "Cluster 1 has the lowest entropy due to its high concentration of water observations."
 
     return answers
 
