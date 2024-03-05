@@ -29,37 +29,37 @@ def question1():
     answers["(d)"] = True
 
     # type: explanatory string (at least four words)
-    answers["(d) explain"] = "SSE decreases with closer, more accurate clusters."
+    answers["(d) explain"] = "SSE decreases with splitting clusters reduces distances to centroids."
 
     # type: bool (True/False)
     answers["(e)"] = True
 
     # type: explanatory string (at least four words)
-    answers["(e) explain"] = "Decreased SSE means increased cohesion."
+    answers["(e) explain"] = "Decreased SSE means increasing in cohesion."
 
     # type: bool (True/False)
     answers["(f)"] = True
 
     # type: explanatory string (at least four words)
-    answers["(f) explain"] = "Increased SSB indicates increased separation."
+    answers["(f) explain"] = "Increased SSB indicates increasing in separation."
 
     # type: bool (True/False)
     answers["(g)"] = True
 
     # type: explanatory string (at least four words)
-    answers["(g) explain"] = "Cohesion and separation can independently vary."
+    answers["(g) explain"] = "Cohesion and separation vary independently."
 
     # type: bool (True/False)
     answers["(h)"] = False
 
     # type: explanatory string (at least four words)
-    answers["(h) explain"] = "SSE + SSB not constant, varies with clustering."
+    answers["(h) explain"] = "SSE + SSB not constant in K-means, varies with clustering."
 
     # type: bool (True/False)
     answers["(i)"] = False
 
     # type: explanatory string (at least four words)
-    answers["(i) explain"] = "Cohesion increase doesn't ensure separation increase."
+    answers["(i) explain"] = "More cohesive clusters don't imply greater cluster separation."
 
     return answers
 
